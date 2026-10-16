@@ -1,0 +1,95 @@
+{
+  "_comment": "正文内联浮层词典。key = 正文标记里的标识（#wiki/xxx、#link/xxx、#price/xxx、#trade/xxx、#project/xxx 的 xxx，大小写不敏感）。字段：t=浮层标题、d=一句话释义、url=外链、urlLabel=外链文字、fic=true 表示书中虚构标的（浮层会加虚构角标）。注意：释义不得剧透，只做当下这一刻够用的解释。",
+  "bitcoin": {
+    "t": "比特币 Bitcoin",
+    "d": "第一个加密货币，也是这个行业公认的计价基准。",
+    "url": "https://coinmarketcap.com/currencies/bitcoin/",
+    "urlLabel": "CoinMarketCap"
+  },
+  "ethereum": {
+    "t": "以太坊 Ethereum",
+    "d": "支持智能合约的公链。绝大多数代币、DeFi 与链上应用都跑在它的生态里。",
+    "url": "https://coinmarketcap.com/currencies/ethereum/",
+    "urlLabel": "CoinMarketCap"
+  },
+  "usdt": {
+    "t": "泰达币 USDT",
+    "d": "与美元一比一挂钩的稳定币，交易对里最常见的计价单位，由 Tether 公司发行。",
+    "url": "https://tether.to",
+    "urlLabel": "Tether 官网"
+  },
+  "hyperliquid": {
+    "t": "Hyperliquid",
+    "d": "把订单簿整个放在自己公链上的链上永续合约交易所。",
+    "url": "https://hyperliquid.xyz",
+    "urlLabel": "官网"
+  },
+  "mian": {
+    "t": "密安 Mi'an",
+    "d": "书中虚构的交易所，以上币审核严格著称。现实中不存在同名机构。",
+    "fic": true
+  },
+  "signal": {
+    "t": "Signal",
+    "d": "端到端加密通讯软件，服务商自己也读不出消息内容。",
+    "url": "https://signal.org",
+    "urlLabel": "官网"
+  },
+  "telegram": {
+    "t": "Telegram",
+    "d": "跨平台即时通讯软件，加密社群与频道的主要聚集地。",
+    "url": "https://telegram.org",
+    "urlLabel": "官网"
+  },
+  "discord": {
+    "t": "Discord",
+    "d": "社群语音与文字平台，加密项目的社区大本营。",
+    "url": "https://discord.com",
+    "urlLabel": "官网"
+  },
+  "x": {
+    "t": "X（原推特）",
+    "d": "全球性社交平台，加密行业信息传播的主阵地。",
+    "url": "https://x.com",
+    "urlLabel": "官网"
+  },
+  "etherscan": {
+    "t": "Etherscan",
+    "d": "以太坊区块链浏览器，链上任何一笔转账都能在上面查到。",
+    "url": "https://etherscan.io",
+    "urlLabel": "官网"
+  },
+  "btcusdt": {
+    "t": "BTC / USDT",
+    "d": "最主流的交易对：用 USDT 给比特币计价。",
+    "url": "https://coinmarketcap.com/currencies/bitcoin/",
+    "urlLabel": "CoinMarketCap"
+  },
+  "lockup": {
+    "t": "锁定与解锁",
+    "d": "代币按时间表分批释放的规则。解锁节奏往往在上币之前，就已经写好了开盘后的走势。"
+  },
+  "ironvault": {
+    "t": "铁柜 IRONVAULT",
+    "d": "书中虚构的硬件钱包品牌。它最大的卖点是：原厂塑封、能通过官方正品校验。",
+    "fic": true
+  },
+  "gct": {
+    "t": "星核 GCT",
+    "d": "书中虚构的上币项目，现实中并不存在。",
+    "fic": true
+  },
+  "btc": {
+    "t": "比特币价格",
+    "d": "书中时间 2026 年 9 月 17 日，比特币约 76,421.9 美元（历史最高 126,080）。价格为情节设定。"
+  },
+  "eth": {
+    "t": "以太坊价格",
+    "d": "书中时间 2026 年 9 月 17 日，以太坊约 2,430 美元。价格为情节设定。"
+  },
+  "xxx": {
+    "t": "XXX",
+    "d": "书中虚构的代币，不对应任何真实标的。",
+    "fic": true
+  }
+}

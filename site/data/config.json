@@ -1,0 +1,13 @@
+{
+  "_comment": "捐赠配置：官网不发行自有代币，仅接受捐赠；所有捐赠地址集中在此处维护。",
+  "siteUrl": "https://www.cryptofinal12.xyz",
+  "token_policy": "本网站不发行、不销售、不承诺任何代币。仅接受自愿捐赠。",
+  "channels": [
+    {
+      "chain": "EVM",
+      "address": "0xE4865b6801B9b78cDa2F4e2E115947d94DFF79B7",
+      "label": "EVM 全链通用（以太坊 / BNB Chain / Polygon / Arbitrum / Base 等）"
+    }
+  ],
+  "note": "channels 每项格式：{\"chain\":\"EVM\",\"address\":\"0x...\",\"label\":\"说明\"}"
+}

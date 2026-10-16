@@ -1,0 +1,31 @@
+# 依赖与构建产物
+node_modules/
+dist/
+build/
+*.dist
+.wrangler/
+
+# 凭据（绝不允许入库）
+.env
+.env.*
+*.pem
+
+# 大体积二进制备份与截图
+_shots/
+assets-backup-*/
+*.zip
+
+# 系统与编辑器
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+
+# 本地保留但不上库的旧代码/备份（旧 React 版站点、废弃合约、旧图片备份）
+/client/
+/server/
+/shared/
+/patches/
+/contract/
+/novel/
