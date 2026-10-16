@@ -14,7 +14,8 @@ python tools/cf_deploy.py -m "说明"        # 上传 dist/
 python tools/cf_deploy.py --no-build       # 只上传，不重建
 ```
 
-线上地址：**https://mian-12h.pages.dev**（Cloudflare Pages 项目 `mian-12h`）
+线上地址：**https://www.cryptofinal12.xyz**（项目从属自有域名，已在 Cloudflare 绑定并生效）
+Pages 自带地址：https://mian-12h.pages.dev
 
 ## 凭据
 
@@ -50,6 +51,7 @@ cd tools/cfcli && npm install wrangler
 ## 其他
 
 - 换自有域名：改 `site/data/config.json` 的 `siteUrl` 一处，重跑 `./deploy.sh`；
-  Cloudflare Dashboard → Pages → mian-12h → Custom domains 里绑定域名。
+  Cloudflare Dashboard → Pages → mian-12h → Custom domains 里绑定域名（当前已绑 `www.cryptofinal12.xyz`，
+  裸域 `cryptofinal12.xyz` 还没绑，要的话加一条即可，zone 已在本账户）。
 - 上传包（给不想用脚本的场景）：`dist/` 目录，或 `mian-12h-site-YYYYMMDD.zip`，在 Cloudflare Pages
   的 Direct Upload 界面拖进去即可。
