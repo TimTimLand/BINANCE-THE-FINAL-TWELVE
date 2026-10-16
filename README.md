@@ -26,6 +26,23 @@ tools/
   cfcli/            wrangler 的本地安装目录（node_modules 不入库）
 ```
 
+## Kindle 版 PDF
+
+作者用 Kindle Voyage 精读校订，所以另有一份**按 Kindle 屏 1:1 排版**的 PDF：
+
+```bash
+python tools/make_kindle.py                # 含【0xTim 的低语】，529 页
+python tools/make_kindle.py --no-whisper   # 只要正文
+python tools/make_kindle.py --font-size 11 # 调字号
+```
+
+产出 `dist-book/密安十二时辰-Kindle版-YYYYMMDD.pdf`（另复制一份 `-最新.pdf`）。
+
+- 页面 91×123mm，正好等于 Voyage 的可视区，Kindle 上 1:1 显示、不被缩放
+- 结构：封面 → 版权页 → 关于本书 → 人物 → 目录 → 26 集正文 → 关于作者 → 版权与合作 → 捐助 → 封底
+- 有页码、有 26 个分集书签；PDF 元数据里写了作者、网址与"禁止转载"
+- 正文里的站内词条/价格标记会自动转成纯文本（纸质化不需要链接）
+
 ## 本地构建
 
 ```bash

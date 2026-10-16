@@ -1,4 +1,12 @@
-# tools/ —— 部署工具（不随站点上线）
+# tools/ —— 构建与部署工具（都不随站点上线）
+
+| 脚本 | 用途 |
+|---|---|
+| `make_kindle.py` | 生成 Kindle 版 PDF（Kindle Voyage 1:1 版式，详见根 README） |
+| `cf_deploy.py` | 构建 + 推送 Cloudflare Pages |
+| `cfcli/` | 官方 wrangler 的本地安装目录 |
+
+---
 
 ## 一键发布
 

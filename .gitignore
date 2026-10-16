@@ -44,3 +44,6 @@ Thumbs.db
 /tsconfig.*.json
 /vite.config.ts
 /vite.config.*.ts
+
+# Kindle 版 PDF 产物（含未公开校订稿，不入库）
+dist-book/
