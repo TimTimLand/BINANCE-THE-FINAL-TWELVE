@@ -29,3 +29,18 @@ Thumbs.db
 /patches/
 /contract/
 /novel/
+
+# 旧 React 工程遗留的根级配置（随 client/ 一起停用）
+/.gitkeep
+/.prettierignore
+/.prettierrc
+/components.json
+/ideas.md
+/package.json
+/package-lock.json
+/pnpm-lock.yaml
+/pnpm-workspace.yaml
+/tsconfig.json
+/tsconfig.*.json
+/vite.config.ts
+/vite.config.*.ts
